@@ -6,4 +6,8 @@ public class FuncionesJavaIntro {
         imc = kg/(metros*2);
         return imc;
     }
+    public static double convertirMoneda(double pesos, double dolar){
+        double resultado = pesos/dolar;
+        return resultado;
+    }
 }
