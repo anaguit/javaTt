@@ -33,4 +33,15 @@ public class FuncionesAnalisisDatos {
 
         return promedio;
     };
+    public static int contarNumerosPares(int[]numeros){
+        int cantidadNumerosPares = 0;
+        for(int i = 0; i<numeros.length;i++){
+            if(numeros[i]%2 == 0){
+                cantidadNumerosPares = cantidadNumerosPares + 1;
+            } else {
+                cantidadNumerosPares = cantidadNumerosPares;
+            };
+        };
+        return cantidadNumerosPares;
+    }
 };

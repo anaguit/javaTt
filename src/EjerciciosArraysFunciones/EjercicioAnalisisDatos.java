@@ -48,4 +48,16 @@ public class EjercicioAnalisisDatos {
         System.out.println("el numero promedio es:");
         System.out.println(FuncionesAnalisisDatos.calcularPromedio(numeros));
     };
+    public static void numerosPares(){
+        Scanner leer = new Scanner(System.in);
+        System.out.println("ingrese 4 numeros uno por uno");
+        int num1 = leer.nextInt();
+        int num2 = leer.nextInt();
+        int num3 = leer.nextInt();
+        int num4 = leer.nextInt();
+        leer.close();
+        int[]numeros = {num1,num2,num3,num4};
+        int cantidadPares = FuncionesAnalisisDatos.contarNumerosPares(numeros);
+        System.out.println("La cantidad de numeros pares es " + cantidadPares);
+    }
 }
