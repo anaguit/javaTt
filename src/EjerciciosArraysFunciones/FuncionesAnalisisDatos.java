@@ -23,4 +23,14 @@ public class FuncionesAnalisisDatos {
         };
         return numeroMinimo;
     };
+    public static double calcularPromedio(double[]numeros){
+        double sumaNumeros=0;
+
+        for(int i=0; i<numeros.length; i++){
+            sumaNumeros = sumaNumeros + numeros[i];
+        }
+        double promedio = sumaNumeros / numeros.length;
+
+        return promedio;
+    };
 };

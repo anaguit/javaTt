@@ -15,6 +15,7 @@ public class Main {
         //OrdenarNumeros.ingresarNumeros();
 
         //EjercicioAnalisisDatos.numeroMaximo();
-        EjercicioAnalisisDatos.numeroMinimo();
+        //EjercicioAnalisisDatos.numeroMinimo();
+        EjercicioAnalisisDatos.promedioNumeros();
     };
 };

@@ -33,4 +33,19 @@ public class EjercicioAnalisisDatos {
         System.out.println("el numero minimo es:");
         System.out.println(FuncionesAnalisisDatos.encontrarMinimo(numeros));
     };
+    public static void promedioNumeros() {
+        Scanner leer = new Scanner(System.in);
+        System.out.println("ingrese un numero");
+        double num1 = leer.nextInt();
+        System.out.println("ingrese un numero");
+        double num2 = leer.nextInt();
+        System.out.println("ingrese un numero");
+        double num3 = leer.nextInt();
+        System.out.println("ingrese un numero");
+        double num4 = leer.nextInt();
+        leer.close();
+        double[] numeros = {num1, num2, num3, num4};
+        System.out.println("el numero promedio es:");
+        System.out.println(FuncionesAnalisisDatos.calcularPromedio(numeros));
+    };
 }
