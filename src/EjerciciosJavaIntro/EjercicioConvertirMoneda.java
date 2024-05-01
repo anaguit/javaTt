@@ -10,6 +10,7 @@ public class EjercicioConvertirMoneda {
         double pesos = leer.nextDouble();
         double dolar = 2000;
         double monedaConvertida = FuncionesJavaIntro.convertirMoneda(pesos,dolar);
+        leer.close();
         System.out.println("vas a comprar " + monedaConvertida + " dolares");
     }
 }

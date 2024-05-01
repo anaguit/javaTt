@@ -12,6 +12,7 @@ public class EjercicioIMC {
         //ingresa altura
         System.out.println("ingresa tu altura");
         double metros = leer.nextDouble();
+        leer.close();
         System.out.println("tu altura es " + metros);
 
         double imc = FuncionesJavaIntro.calcularIMC(kg,metros);

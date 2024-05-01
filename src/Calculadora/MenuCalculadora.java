@@ -16,6 +16,7 @@ public class MenuCalculadora {
                 System.out.println("ingrese otro número");
                 numB = leer.nextInt();
                 System.out.println(Calculadora.sumar(numA,numB));
+                leer.close();
                 break;
             case 2:
                 System.out.println("ingrese un número");
@@ -23,6 +24,7 @@ public class MenuCalculadora {
                 System.out.println("ingrese otro número");
                 numB = leer.nextInt();
                 System.out.println(Calculadora.restar(numA,numB));
+                leer.close();
                 break;
             case 3:
                 System.out.println("ingrese un número");
@@ -30,6 +32,7 @@ public class MenuCalculadora {
                 System.out.println("ingrese otro número");
                 numB = leer.nextInt();
                 System.out.println(Calculadora.dividir(numA,numB));
+                leer.close();
                 break;
             default:
                 System.out.println("ingrese un número");
@@ -37,6 +40,8 @@ public class MenuCalculadora {
                 System.out.println("ingrese otro número");
                 numB = leer.nextInt();
                 System.out.println(Calculadora.multiplicar(numA,numB));
+
+                leer.close();
         }
     }
 }

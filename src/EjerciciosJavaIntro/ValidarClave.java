@@ -10,6 +10,7 @@ public class ValidarClave {
         String clave = leer.nextLine();
         System.out.println("ingresala nuevamente");
         String claveRepetida = leer.nextLine();
+        leer.close();
         boolean validacion = FuncionesJavaIntro.comprobarContra(clave,claveRepetida);
         if(validacion == true){
             System.out.println("contraseña creada con éxito");
