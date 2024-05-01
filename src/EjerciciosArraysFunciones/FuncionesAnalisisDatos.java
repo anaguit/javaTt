@@ -12,4 +12,15 @@ public class FuncionesAnalisisDatos {
         };
         return numeroMaximo;
     };
+    public static int encontrarMinimo(int[]numeros){
+        int numeroMinimo=numeros[0];
+        for(int i=1; i<numeros.length;i++){
+            if(numeros[i]<numeroMinimo){
+                numeroMinimo = numeros[i];
+            } else{
+               numeroMinimo = numeroMinimo;
+            };
+        };
+        return numeroMinimo;
+    };
 };

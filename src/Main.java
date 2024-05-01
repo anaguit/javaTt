@@ -4,6 +4,7 @@ import EjerciciosJavaIntro.EjercicioConvertirMoneda;
 import EjerciciosJavaIntro.EjercicioIMC;
 import EjerciciosJavaIntro.ValidarClave;
 import EjerciciosJavaIntro.OrdenarNumeros;
+
 import EjerciciosArraysFunciones.EjercicioAnalisisDatos;
 public class Main {
     public static void main(String[] args) {
@@ -12,6 +13,8 @@ public class Main {
         //EjercicioConvertirMoneda.ingresarMontoPesos();
         //ValidarClave.ingresoClave();
         //OrdenarNumeros.ingresarNumeros();
-        EjercicioAnalisisDatos.numeroMaximo();
+
+        //EjercicioAnalisisDatos.numeroMaximo();
+        EjercicioAnalisisDatos.numeroMinimo();
     };
 };
