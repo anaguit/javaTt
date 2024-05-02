@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 import Calculadora.MenuCalculadora;
 import EjerciciosJavaIntro.EjercicioConvertirMoneda;
@@ -6,6 +7,7 @@ import EjerciciosJavaIntro.ValidarClave;
 import EjerciciosJavaIntro.OrdenarNumeros;
 
 import EjerciciosArraysFunciones.EjercicioAnalisisDatos;
+import EjerciciosArraysFunciones.RegistroDeContactos;
 public class Main {
     public static void main(String[] args) {
         //MenuCalculadora.menuCalculadora();
@@ -17,6 +19,8 @@ public class Main {
         //EjercicioAnalisisDatos.numeroMaximo();
         //EjercicioAnalisisDatos.numeroMinimo();
         //EjercicioAnalisisDatos.promedioNumeros();
-        EjercicioAnalisisDatos.numerosPares();
+        //EjercicioAnalisisDatos.numerosPares();
+
+        RegistroDeContactos.nuevoContacto();
     };
 };
